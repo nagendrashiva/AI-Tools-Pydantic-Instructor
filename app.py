@@ -6,10 +6,8 @@ from helpers import structured_generator
 class Titles(BaseModel):
     titles: List[str]
 
-#Replace with your input
 input = "Instagram marketing"
 
-#Replace with your prompt
 prompt = f"generate 5 titles for a video about {input}" 
 
 #Replace With Your Model
