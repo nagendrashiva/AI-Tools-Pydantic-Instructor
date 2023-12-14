@@ -7,10 +7,10 @@ class Titles(BaseModel):
     titles: List[str]
 
 #Replace with your input
-input = "Digital marketing"
+input = "Instagram marketing"
 
 #Replace with your prompt
-prompt = f"generate 5 blog titles for a video about {input}" 
+prompt = f"generate 5 titles for a video about {input}" 
 
 #Replace With Your Model
 openai_model = "gpt-3.5-turbo"
