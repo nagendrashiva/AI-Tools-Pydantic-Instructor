@@ -13,7 +13,7 @@ input = "Instagram marketing"
 prompt = f"generate 5 titles for a video about {input}" 
 
 #Replace With Your Model
-openai_model = "gpt-3.5-turbo"
+openai_model = "gpt-3.5"
 
 result = structured_generator(openai_model,prompt,Titles)
 print(result.titles)
