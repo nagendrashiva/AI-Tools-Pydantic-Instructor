@@ -6,7 +6,8 @@ user = User(name="John Doe", age=30)
 
 print(user.__origin__)
 my_list = list(range(1, 11))
-from helpers import openai_model,prompt,custom_moel
+from helpers import from helpers import structured_generator
+
 
 #Replace With Your Output
 class Titles(BaseModel):

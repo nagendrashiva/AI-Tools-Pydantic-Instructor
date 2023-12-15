@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Access the OpenAI API key
-openai_api_key = os.getenv("OPENAI_API_KEY")
+openai_api_key = os.getenv("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")
 
 import instructor
 
