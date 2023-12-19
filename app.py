@@ -8,7 +8,7 @@ import os
 load_dotenv()
 
 # Define the structured_generator function with correct typing
-def structured_generator(openai_model: str, prompt: str, custom_model: Type[BaseModel]) -> custom_model:
+def structured_generator(openai_model: str, prompt: str, custom_model: Type[BaseModel]) -> Type[BaseModel]:
     api_key = os.getenv("OPENAI_API_KEY")
     openai.api_key = api_key
 
